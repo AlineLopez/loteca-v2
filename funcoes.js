@@ -39,6 +39,6 @@ function contarAcertos(){
       cont = cont + 1;
     }
   })
-  document.getElementById("acertos").innerHTML = cont;
+  document.getElementById("acertoou").innerHTML = cont;
 
 }
