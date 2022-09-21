@@ -2,7 +2,7 @@ var numEsco = [];
 var numSort = [];
 
 function sortNumeros() {
-  for (let i = 0; i < 7; i++) {
+  for (let i = 0; i < 6; i++) {
     let num = Math.ceil(Math.random() * 60);
     console.log(num);
     if (!numSort.includes(num)) {
